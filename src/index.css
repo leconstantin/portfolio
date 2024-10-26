@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .menu {
+    @apply absolute bg-teal-300 text-white z-30 left-2 top-20 bottom-2 h-96 rounded-xl  w-56 flex flex-col items-center justify-center transition-all;
+  }
+  .nav {
+    @apply flex rounded-full bg-white/90 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur;
+  }
+}
