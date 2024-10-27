@@ -4,7 +4,7 @@ import Follow from "../sections/about/follow";
 
 const About = () => {
   return (
-    <div className="px-14 lg:px-1 py-20 mx-auto max-w-2xl lg:max-w-5xl">
+    <div className="py-20 mx-auto max-w-2xl lg:max-w-5xl">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-y-12 lg:grid-rows-[auto_1fr]">
         <div className="lg:pl-20">
           <div className="max-w-xs px-2.5 lg:max-w-none">

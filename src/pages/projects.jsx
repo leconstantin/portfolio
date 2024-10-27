@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="pt-16">
         <ul className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
-            <li className="group relative flex flex-col items-start transition hover:bg-zinc-100/75 hover:shadow-sm py-6 px-6 rounded-lg">
+            <li className="group relative flex flex-col items-start transition hover:bg-zinc-100/75 hover:shadow-sm py-6 px-2 md:px-6 rounded-lg">
               <div className="flex items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5">
                 <img
                   src={project.logo}

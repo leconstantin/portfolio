@@ -18,31 +18,85 @@ const Certicates = () => {
           </div>
         </div>
       </section>
-      <section className="pt-16">
+      <section className="">
         {/* TODO: Leadership */}
-        <div>
-          <p className="text-teal-400 font-roboto font-medium">LeaderShip</p>
+        <article>
+          <h1 className="text-teal-400 font-roboto font-medium py-12">
+            LeaderShip
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-14">
+            <div className="flex flex-col gap-6">
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Name:</p>
+                <p className="text-zinc-600 font-semibold">I LeadS</p>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Oragization:</p>
+                <div>
+                  <img
+                    src="/images/ilead.png"
+                    className="h-14 object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Place :</p>
+                <p className="text-zinc-600 font-semibold">
+                  {" "}
+                  Ecole des science Byimana
+                </p>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Life span :</p>
+                <p className="text-zinc-600 font-semibold">Forever</p>
+              </div>
+            </div>
+            <div>
+              <p class="text-base font-roboto text-zinc-600 leading-7">
+                A Comprehensive Collection of Industry-Recognized Certifications
+                That Highlight My Dedication to Professional Growth, Mastery of
+                Relevant Technologies, and Commitment to Staying Ahead in an
+                Ever-Evolving Digital Landscape Professional Growth, Mastery of
+                Relevant Technologies, and Commitment to Staying Ahead in an
+                Ever-Evolving Digital Landscape.
+              </p>
+            </div>
+          </div>
+        </article>
 
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 py-16 font-roboto">
-            <div className="flex flex-col gap-6 text-zinc-400">
-              <p className="tracking-tight ">Name :</p>
-              <p>Organization :</p>
-              <p>Place :</p>
-              <p>Life span :</p>
+        <article className="pt-12">
+          <h1 className="text-teal-400 font-roboto font-medium pb-6">
+            Programming
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-14">
+            <div className="flex flex-col gap-6">
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Name:</p>
+                <p className="text-zinc-600 font-semibold flex flex-wrap">
+                  <span>Programming for Everybody</span>
+                </p>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Oragization:</p>
+                <div>
+                  <img
+                    src="/images/unMichigan.png"
+                    className="h-16   object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Place :</p>
+                <p className="text-zinc-600 font-semibold"> Coursera</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Life span :</p>
+                <p className="text-zinc-600 font-semibold">Forever</p>
+              </div>
             </div>
-            <div className="flex flex-col text-zinc-600 font-semibold">
-              <p>I Lead</p>
-              <p className="pt-3">
-                <img
-                  src="/images/ilead.png"
-                  className="h-14 object-cover"
-                  alt=""
-                />
-              </p>
-              <p className="pt-2">Ecole des science Byimana</p>
-              <p className="pt-5">Forever</p>
-            </div>
-            <div className="col-span-2">
+            <div>
               <p class="text-base font-roboto text-zinc-600 leading-7">
                 A Comprehensive Collection of Industry-Recognized Certifications
                 That Highlight My Dedication to Professional Growth, Mastery of
@@ -53,29 +107,35 @@ const Certicates = () => {
               </p>
             </div>
           </div>
-        </div>
-        {/* TODO: Programming */}
-        <div>
-          <p className="text-teal-400 font-roboto font-medium">Programming</p>
 
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 py-16 font-roboto">
-            <div className="flex flex-col  text-zinc-400">
-              <p className="tracking-tight ">Name :</p>
-              <p className="pt-16">Organization :</p>
-              <p className="pt-12">Place :</p>
-              <p className="pt-6">Life span :</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-14 pt-14">
+            <div className="flex flex-col gap-6">
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Name:</p>
+                <p className="text-zinc-600 font-semibold flex flex-wrap">
+                  Python Data Structures
+                </p>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Oragization:</p>
+                <div>
+                  <img
+                    src="/images/unMichigan.png"
+                    className="h-16   object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Place :</p>
+                <p className="text-zinc-600 font-semibold"> Coursera</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Life span :</p>
+                <p className="text-zinc-600 font-semibold">Forever</p>
+              </div>
             </div>
-            <div className="flex flex-col gap-6 text-zinc-600 font-semibold">
-              <p>Programming for Everybody (Getting Started with Python)</p>
-              <img
-                src="/images/unMichigan.png"
-                className="h-16 -ml-6  object-cover"
-                alt=""
-              />
-              <p>Coursera</p>
-              <p>Forever</p>
-            </div>
-            <div className="col-span-2">
+            <div>
               <p class="text-base font-roboto text-zinc-600 leading-7">
                 A Comprehensive Collection of Industry-Recognized Certifications
                 That Highlight My Dedication to Professional Growth, Mastery of
@@ -86,24 +146,35 @@ const Certicates = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 py-16 font-roboto">
-            <div className="flex flex-col  text-zinc-400">
-              <p className="tracking-tight ">Name :</p>
-              <p className="pt-16">Organization :</p>
-              <p className="pt-12">Place :</p>
-              <p className="pt-6">Life span :</p>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-14 pt-14">
+            <div className="flex flex-col gap-6">
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Name:</p>
+                <p className="text-zinc-600 font-semibold flex flex-wrap">
+                  <span>Programming for Everybody</span>
+                </p>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Oragization:</p>
+                <div>
+                  <img
+                    src="/images/unMichigan.png"
+                    className="h-16   object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Place :</p>
+                <p className="text-zinc-600 font-semibold"> Coursera</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Life span :</p>
+                <p className="text-zinc-600 font-semibold">Forever</p>
+              </div>
             </div>
-            <div className="flex flex-col gap-6 text-zinc-600 font-semibold">
-              <p>Using Python to Access Web Data</p>
-              <img
-                src="/images/unMichigan.png"
-                className="h-16 -ml-6  object-cover"
-                alt=""
-              />
-              <p>Coursera</p>
-              <p>Forever</p>
-            </div>
-            <div className="col-span-2">
+            <div>
               <p class="text-base font-roboto text-zinc-600 leading-7">
                 A Comprehensive Collection of Industry-Recognized Certifications
                 That Highlight My Dedication to Professional Growth, Mastery of
@@ -114,59 +185,40 @@ const Certicates = () => {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 py-16 font-roboto">
-            <div className="flex flex-col  text-zinc-400">
-              <p className="tracking-tight ">Name :</p>
-              <p className="pt-12">Organization :</p>
-              <p className="pt-10">Place :</p>
-              <p className="pt-6">Life span :</p>
-            </div>
-            <div className="flex flex-col gap-6 text-zinc-600 font-semibold">
-              <p>Python Data Structures</p>
-              <img
-                src="/images/unMichigan.png"
-                className="h-16 -ml-6  object-cover"
-                alt=""
-              />
-              <p>Coursera</p>
-              <p>Forever</p>
-            </div>
-            <div className="col-span-2">
-              <p class="text-base font-roboto text-zinc-600 leading-7">
-                A Comprehensive Collection of Industry-Recognized Certifications
-                That Highlight My Dedication to Professional Growth, Mastery of
-                Relevant Technologies, and Commitment to Staying Ahead in an
-                Ever-Evolving Digital Landscape Professional Growth, Mastery of
-                Relevant Technologies, and Commitment to Staying Ahead in an
-                Ever-Evolving Digital Landscape.
-              </p>
-            </div>
-          </div>
-        </div>
-        {/* TODO: Dsf */}
-        <div>
-          <p className="text-teal-400 font-roboto font-medium">
+        </article>
+
+        <article className="pt-12">
+          <h1 className="text-teal-400 font-roboto font-medium pb-8">
             Digital Skills
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-y-10 py-16 font-roboto">
-            <div className="flex flex-col gap-6 text-zinc-400">
-              <p className="tracking-tight ">Name :</p>
-              <p>Organization :</p>
-              <p>Place :</p>
-              <p>Life span :</p>
+          </h1>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-14 gap-y-14">
+            <div className="flex flex-col gap-6">
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Name:</p>
+                <p className="text-zinc-600 font-semibold flex flex-wrap">
+                  <span>Digital skills Foundation</span>
+                </p>
+              </div>
+              <div className="flex justify-between items-center">
+                <p className="text-zinc-400">Oragization:</p>
+                <div>
+                  <img
+                    src="/images/gsflogo.png"
+                    className="h-14 object-cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Place :</p>
+                <p className="text-zinc-600 font-semibold"> Coursera</p>
+              </div>
+              <div className="flex justify-between">
+                <p className="text-zinc-400">Life span :</p>
+                <p className="text-zinc-600 font-semibold">Forever</p>
+              </div>
             </div>
-            <div className="space-y-3 text-zinc-600 font-semibold">
-              <p>Digital skills Foundation</p>
-              <img
-                src="/images/gsflogo.png"
-                className="h-14 object-cover"
-                alt=""
-              />
-              <p>Dsf online</p>
-              <p>Forever</p>
-            </div>
-            <div className="col-span-2">
+            <div>
               <p class="text-base font-roboto text-zinc-600 leading-7">
                 A Comprehensive Collection of Industry-Recognized Certifications
                 That Highlight My Dedication to Professional Growth, Mastery of
@@ -177,7 +229,7 @@ const Certicates = () => {
               </p>
             </div>
           </div>
-        </div>
+        </article>
       </section>
     </div>
   );

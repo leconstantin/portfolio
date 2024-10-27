@@ -18,7 +18,7 @@ const Footer = () => {
                     <li>
                       <a
                         href={link.href}
-                        className="relative block font-roboto px-4 py-3 transition hover:text-teal-500 cursor-pointer"
+                        className="relative block font-roboto px-2 md:px-4 py-3 transition hover:text-teal-500 cursor-pointer"
                       >
                         {link.label}
                       </a>

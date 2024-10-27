@@ -90,7 +90,7 @@ const Work = () => {
                   className="ml-auto text-xs text-zinc-400 "
                   aria-label="2019 until Present"
                 >
-                  <time datetime={work.Date}>{work.Date}</time>
+                  <time dateTime={work.Date}>{work.Date}</time>
                 </dd>
               </dl>
             </li>
